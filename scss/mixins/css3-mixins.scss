@@ -1,0 +1,19 @@
+// ROUNDED CORNERS
+// @mixin rounded(all 3s ease);
+//
+@mixin transition($args...) {
+    -webkit-transition: $args;
+       -moz-transition: $args;
+        -ms-transition: $args;
+            transition: $args;
+}
+
+// TRANSITIONS
+// @mixin transition(all 3s ease);
+//
+@mixin transition($args...) {
+    -webkit-transition: $args;
+       -moz-transition: $args;
+        -ms-transition: $args;
+            transition: $args;
+}
